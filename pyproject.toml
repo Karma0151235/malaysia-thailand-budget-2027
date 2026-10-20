@@ -1,0 +1,23 @@
+[project]
+name = "budget-compare"
+version = "1.0.0"
+description = "Malaysia Budget 2027 vs Thailand FY2027: minimum wage purchasing power and budget structure"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.0",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0", "pillow>=10.0"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

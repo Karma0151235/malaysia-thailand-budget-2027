@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Notebooks / editors / OS
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Internal working notes (not part of the submission)
+AGENTS.md
+PROGRESS.md
+CLAUDE.md
+.claude/
+*.agent.log
+agent_logs/
+scratch/
+notes/

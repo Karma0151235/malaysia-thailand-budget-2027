@@ -1,0 +1,5 @@
+record_id,country,regime_label,currency_code,exchange_rate_lcu_per_usd,ppp_rate_lcu_per_int_dlr,price_level_index,gdp_per_capita_usd,monthly_wage_lcu,nominal_wage_usd,ppp_wage_int_dlr,annual_wage_to_gdp_pct,total_budget_usd_bn,core_operating_pct,social_subsidies_pct,capital_dev_pct,principal_treasury_pct,off_budget_stimulus_pct,source_citation_keys
+MYS_2026,Malaysia,MY 2026 Base (RM 1700),MYR,4.0805,1.35,33.08,15090.0,1700.0,416.62,1259.26,33.13,112.68,64.55,17.40,18.05,0.00,0.00,"[1], [2], [6]"
+MYS_2027,Malaysia,MY June 2027 Target (RM 2000),MYR,4.0805,1.35,33.08,15090.0,2000.0,490.14,1481.48,38.98,112.68,64.55,17.40,18.05,0.00,0.00,"[1], [2], [3], [6]"
+THA_FLOOR,Thailand,TH 2026/27 Floor (THB 337/d),THB,33.4500,9.97,29.81,8370.0,10110.0,302.24,1014.04,43.33,113.24,57.53,16.02,20.83,5.61,10.56,"[4], [5], [6]"
+THA_CAP,Thailand,TH 2026/27 Hub Cap (THB 400/d),THB,33.4500,9.97,29.81,8370.0,12000.0,358.74,1203.61,51.43,113.24,57.53,16.02,20.83,5.61,10.56,"[4], [5], [6]"
