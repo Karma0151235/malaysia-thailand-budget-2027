@@ -195,9 +195,11 @@ src/budget_compare/
     data.py      loads and validates the data
     metrics.py   computes every number in this README
     charts.py    draws the three poster charts
+    references.py  turns the Sources list below into references.png
     style.py     colours, fonts, export settings
 outputs/
     findings.json              all computed numbers
+    references.png             every source below as one image for the poster (+ _transparent)
     charts/png_white/          300 DPI, white background
     charts/png_transparent/    300 DPI, transparent background
     charts/svg/                scalable vector versions
