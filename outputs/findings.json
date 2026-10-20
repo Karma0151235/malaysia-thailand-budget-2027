@@ -1,0 +1,80 @@
+{
+  "wages": {
+    "MYS_2026": {
+      "label": "MY 2026 Base (RM 1700)",
+      "monthly_local": 1700.0,
+      "monthly_usd": 416.62,
+      "monthly_ppp": 1259.26,
+      "annual_wage_pct_of_gdp_per_capita": 33.13
+    },
+    "MYS_2027": {
+      "label": "MY June 2027 Target (RM 2000)",
+      "monthly_local": 2000.0,
+      "monthly_usd": 490.14,
+      "monthly_ppp": 1481.48,
+      "annual_wage_pct_of_gdp_per_capita": 38.98
+    },
+    "THA_FLOOR": {
+      "label": "TH 2026/27 Floor (THB 337/d)",
+      "monthly_local": 10110.0,
+      "monthly_usd": 302.24,
+      "monthly_ppp": 1014.04,
+      "annual_wage_pct_of_gdp_per_capita": 43.33
+    },
+    "THA_CAP": {
+      "label": "TH 2026/27 Hub Cap (THB 400/d)",
+      "monthly_local": 12000.0,
+      "monthly_usd": 358.74,
+      "monthly_ppp": 1203.61,
+      "annual_wage_pct_of_gdp_per_capita": 51.43
+    }
+  },
+  "wage_gaps": {
+    "my_wage_hike_pct": 17.65,
+    "my_usd_lead_vs_th_cap_pct": 36.63,
+    "my_usd_lead_vs_th_floor_pct": 62.17,
+    "my_ppp_lead_vs_th_cap_pct": 23.09,
+    "my_ppp_lead_vs_th_floor_pct": 46.1
+  },
+  "casual_worker_sensitivity": {
+    "th_floor_monthly_thb_26d": 8762,
+    "th_cap_monthly_thb_26d": 10400,
+    "monthly_pay_cut_pct": 13.33,
+    "my_ppp_lead_vs_th_cap_pct": 42.02,
+    "my_ppp_lead_vs_th_floor_pct": 68.57
+  },
+  "prices_and_income": {
+    "my_price_level_index": 33.08,
+    "th_price_level_index": 29.81,
+    "my_gdp_per_capita_usd": 15090.0,
+    "th_gdp_per_capita_usd": 8370.0,
+    "my_to_th_gdp_per_capita_ratio": 1.8,
+    "th_gdp_per_capita_lower_pct": 44.53
+  },
+  "budget": {
+    "malaysia": {
+      "total_local_bn": 459.8,
+      "total_usd_bn": 112.68,
+      "day_to_day_pct": 81.95,
+      "subsidies_and_welfare_pct": 17.4,
+      "subsidies_and_welfare_local_bn": 80.01,
+      "development_pct": 18.05,
+      "development_local_bn": 82.99,
+      "debt_principal_pct": 0.0,
+      "off_budget_local_bn": 50.2,
+      "off_budget_pct_of_budget": 10.92,
+      "all_in_local_bn": 510.0
+    },
+    "thailand": {
+      "total_local_bn": 3788.0,
+      "total_usd_bn": 113.24,
+      "day_to_day_pct": 73.55,
+      "development_pct": 20.83,
+      "development_local_bn": 789.04,
+      "debt_principal_pct": 5.61,
+      "off_budget_local_bn": 400.0,
+      "off_budget_pct_of_budget": 10.56
+    }
+  },
+  "budget_size_gap_pct": 0.5
+}
