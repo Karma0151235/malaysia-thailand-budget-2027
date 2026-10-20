@@ -60,7 +60,7 @@
       "subsidies_and_welfare_local_bn": 80.01,
       "development_pct": 18.05,
       "development_local_bn": 82.99,
-      "debt_principal_pct": 0.0,
+      "debt_and_reserves_pct": 0.0,
       "off_budget_local_bn": 50.2,
       "off_budget_pct_of_budget": 10.92,
       "all_in_local_bn": 510.0
@@ -71,7 +71,7 @@
       "day_to_day_pct": 73.55,
       "development_pct": 20.83,
       "development_local_bn": 789.04,
-      "debt_principal_pct": 5.61,
+      "debt_and_reserves_pct": 5.61,
       "off_budget_local_bn": 400.0,
       "off_budget_pct_of_budget": 10.56
     }

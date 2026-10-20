@@ -98,7 +98,7 @@ def budget_split_chart(f: dict[str, Any], out_dir: Path) -> list[Path]:
         segments = [
             (b["day_to_day_pct"], NEUTRAL, INK),
             (b["development_pct"], color, "white"),
-            (b["debt_principal_pct"], NEUTRAL_LIGHT, INK),
+            (b["debt_and_reserves_pct"], NEUTRAL_LIGHT, INK),
         ]
         left = 0.0
         for width, fill, txt in segments:
@@ -119,8 +119,8 @@ def budget_split_chart(f: dict[str, Any], out_dir: Path) -> list[Path]:
             ha="center", va="bottom", fontsize=12.5, color=INK_MUTED, linespacing=1.15)
     ax.text(my["day_to_day_pct"] + my["development_pct"] / 2, top, "Development\n(building)",
             ha="center", va="bottom", fontsize=12.5, color=INK_MUTED, linespacing=1.15)
-    debt_mid = th["day_to_day_pct"] + th["development_pct"] + th["debt_principal_pct"] / 2
-    ax.annotate(f"Debt repayment {pct1(th['debt_principal_pct'])}", xy=(debt_mid, -h / 2), xytext=(debt_mid - 1, -0.62),
+    debt_mid = th["day_to_day_pct"] + th["development_pct"] + th["debt_and_reserves_pct"] / 2
+    ax.annotate(f"Debt repayment & reserves {pct1(th['debt_and_reserves_pct'])}", xy=(debt_mid, -h / 2), xytext=(debt_mid - 1, -0.62),
                 ha="right", va="center", fontsize=12.5, color=INK_MUTED,
                 arrowprops=dict(arrowstyle="-", color=INK_MUTED, linewidth=1))
 

@@ -2264,13 +2264,81 @@ z
     </g>
    </g>
    <g id="patch_10">
-    <path d="M 432.363117 285.813164 
-Q 454.892864 273.328075 477.422611 260.842985 
+    <path d="M 409.505937 286.078181 
+Q 443.402368 273.327986 477.298798 260.577791 
 " style="fill: none; stroke: #52514e; stroke-linecap: round"/>
    </g>
    <g id="text_11">
-    <!-- Debt repayment 5.6% -->
-    <g style="fill: #52514e" transform="translate(352.379446 300.682406) scale(0.125 -0.125)">
+    <!-- Debt repayment &amp; reserves 5.6% -->
+    <g style="fill: #52514e" transform="translate(290.566946 300.682406) scale(0.125 -0.125)">
+     <defs>
+      <path id="HelveticaNeue-d" d="M 1760 2810 
+Q 1683 2906 1606 3002 
+Q 1530 3098 1466 3197 
+Q 1402 3296 1360 3398 
+Q 1318 3501 1318 3603 
+Q 1318 3853 1484 3971 
+Q 1651 4090 1843 4090 
+Q 2086 4090 2227 3946 
+Q 2368 3802 2368 3603 
+Q 2368 3456 2310 3337 
+Q 2253 3219 2163 3123 
+Q 2074 3027 1965 2950 
+Q 1856 2874 1760 2810 
+z
+M 2931 570 
+L 3418 0 
+L 4128 0 
+L 3238 1030 
+Q 3309 1184 3360 1302 
+Q 3411 1421 3446 1542 
+Q 3482 1664 3504 1808 
+Q 3526 1952 3546 2157 
+L 3027 2157 
+Q 3008 1805 2880 1446 
+L 2054 2451 
+Q 2221 2547 2374 2665 
+Q 2528 2784 2649 2931 
+Q 2771 3078 2841 3254 
+Q 2912 3430 2912 3635 
+Q 2912 3866 2819 4042 
+Q 2726 4218 2572 4336 
+Q 2419 4454 2217 4512 
+Q 2016 4570 1805 4570 
+Q 1555 4570 1363 4493 
+Q 1171 4416 1040 4285 
+Q 909 4154 841 3984 
+Q 774 3814 774 3629 
+Q 774 3456 816 3318 
+Q 858 3181 931 3056 
+Q 1005 2931 1094 2809 
+Q 1184 2688 1280 2554 
+Q 1062 2438 867 2307 
+Q 672 2176 528 2013 
+Q 384 1850 297 1645 
+Q 211 1440 211 1171 
+Q 211 1030 259 819 
+Q 307 608 460 409 
+Q 614 211 896 70 
+Q 1178 -70 1638 -70 
+Q 2016 -70 2371 90 
+Q 2726 250 2931 570 
+z
+M 1581 2208 
+L 2630 947 
+Q 2464 698 2217 550 
+Q 1971 403 1658 403 
+Q 1491 403 1334 460 
+Q 1178 518 1056 617 
+Q 934 717 860 861 
+Q 787 1005 787 1178 
+Q 787 1382 851 1532 
+Q 915 1683 1024 1804 
+Q 1133 1926 1277 2022 
+Q 1421 2118 1581 2208 
+z
+" transform="scale(0.015625)"/>
+     </defs>
      <use xlink:href="#HelveticaNeue-2b"/>
      <use xlink:href="#HelveticaNeue-4c" transform="translate(70.40625 0)"/>
      <use xlink:href="#HelveticaNeue-49" transform="translate(124.109375 0)"/>
@@ -2286,10 +2354,21 @@ Q 454.892864 273.328075 477.422611 260.842985
      <use xlink:href="#HelveticaNeue-55" transform="translate(629.90625 0)"/>
      <use xlink:href="#HelveticaNeue-5b" transform="translate(685.5 0)"/>
      <use xlink:href="#HelveticaNeue-3" transform="translate(717 0)"/>
-     <use xlink:href="#HelveticaNeue-1c" transform="translate(744.796875 0)"/>
-     <use xlink:href="#HelveticaNeue-15" transform="translate(800.390625 0)"/>
-     <use xlink:href="#HelveticaNeue-1d" transform="translate(828.1875 0)"/>
-     <use xlink:href="#HelveticaNeue-c" transform="translate(883.78125 0)"/>
+     <use xlink:href="#HelveticaNeue-d" transform="translate(744.796875 0)"/>
+     <use xlink:href="#HelveticaNeue-3" transform="translate(807.796875 0)"/>
+     <use xlink:href="#HelveticaNeue-59" transform="translate(835.59375 0)"/>
+     <use xlink:href="#HelveticaNeue-4c" transform="translate(867.09375 0)"/>
+     <use xlink:href="#HelveticaNeue-5a" transform="translate(920.796875 0)"/>
+     <use xlink:href="#HelveticaNeue-4c" transform="translate(970.796875 0)"/>
+     <use xlink:href="#HelveticaNeue-59" transform="translate(1024.5 0)"/>
+     <use xlink:href="#HelveticaNeue-5d" transform="translate(1057.796875 0)"/>
+     <use xlink:href="#HelveticaNeue-4c" transform="translate(1107.796875 0)"/>
+     <use xlink:href="#HelveticaNeue-5a" transform="translate(1161.5 0)"/>
+     <use xlink:href="#HelveticaNeue-3" transform="translate(1211.5 0)"/>
+     <use xlink:href="#HelveticaNeue-1c" transform="translate(1239.296875 0)"/>
+     <use xlink:href="#HelveticaNeue-15" transform="translate(1294.890625 0)"/>
+     <use xlink:href="#HelveticaNeue-1d" transform="translate(1322.6875 0)"/>
+     <use xlink:href="#HelveticaNeue-c" transform="translate(1378.28125 0)"/>
     </g>
    </g>
    <g id="text_12">

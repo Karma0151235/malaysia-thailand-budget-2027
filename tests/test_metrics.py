@@ -84,7 +84,7 @@ def test_budget_structure(f: dict[str, Any]) -> None:
     assert my["subsidies_and_welfare_local_bn"] == pytest.approx(80.0, abs=0.1) # "RM 80B-plus"
     assert th["day_to_day_pct"] == approx(73.55)
     assert th["development_pct"] == approx(20.83)
-    assert th["debt_principal_pct"] == approx(5.61)
+    assert th["debt_and_reserves_pct"] == approx(5.61)
     assert th["development_pct"] > my["development_pct"]
 
 
